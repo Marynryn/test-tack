@@ -116,7 +116,7 @@ function App() {
   const sizes = [{ height: "527px" }, { height: "545px" }, { height: "587px" }];
   return (
     <div
-      className=" flex flex-wrap justify-around  gap-6"
+      className=" flex flex-wrap justify-around xl:justify-normal gap-6"
       style={{ padding: "30px" }}
     >
       {cardsData.map((item, index) => {

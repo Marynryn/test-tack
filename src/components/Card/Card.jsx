@@ -10,7 +10,7 @@ const Card = ({ title, content, width, containerHeight, svgName, color }) => {
         }}>
             <div className=" flex mb-6" >
                 <svg className='fill-black mr-0 ml-auto' width={width} height={100} style={{ fill: `${color}` }}>
-                    <use href={`/svg/symbol-defs.svg#${svgName}`} >
+                    <use href={`/src/svg/symbol-defs.svg#${svgName}`} >
                     </use>
                 </svg>
             </div>
